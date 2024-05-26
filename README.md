@@ -6,6 +6,7 @@ GitHub template repository for creating a new Django project in Docker
 - [`Django`](https://www.djangoproject.com/) 5
 - [`django-debug-toolbar`](https://github.com/jazzband/django-debug-toolbar) 4.3
 - [`Docker`](https://docs.docker.com/get-docker/) and [`Docker Compose`](https://docs.docker.com/compose/)
+- Base HTML template with [`Bootstrap`](https://getbootstrap.com/) 5
 
 ## :magic_wand: First Commands
 If you have Docker and Docker compose installed
