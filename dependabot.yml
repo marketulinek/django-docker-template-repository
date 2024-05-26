@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+      time: "13:13"
+      timezone: "Europe/Prague"
+    groups:
+      bundler:
+        patterns:
+          - '*'

@@ -37,3 +37,14 @@ You can use an example file by renaming it, then adding your secret key and othe
 ```
 mv .env-example .env
 ```
+
+### 2) Set periodic dependency bumps
+ Move the `dependabot.yml` file to the appropriate folder and change the rules as you wish
+```
+mkdir .github
+mv dependabot.yml .github/dependabot.yml
+```
+or remove the file completely if not interested
+```
+rm dependabot.yml
+```
