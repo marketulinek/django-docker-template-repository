@@ -30,3 +30,10 @@ If you want to create a superuser
 ```
 docker-compose exec web python manage.py createsuperuser
 ```
+
+## Next Steps
+### 1) Set environment variables
+You can use an example file by renaming it, then adding your secret key and other desired variables
+```
+mv .env-example .env
+```
