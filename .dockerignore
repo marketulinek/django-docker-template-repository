@@ -1,0 +1,19 @@
+# Git
+.git
+.gitignore
+
+# Docker
+.docker
+Dockerfile
+
+# Python
+**/__pycache__/
+**/db.sqlite3
+.env
+.venv
+venv/
+
+# Others
+**/*.mo
+**/*.md
+.idea
