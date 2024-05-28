@@ -49,3 +49,14 @@ or remove the file completely if not interested
 ```
 rm dependabot.yml
 ```
+
+### 3) Use predefined settings
+You can replace settings with a predefined settings
+```
+mv predefined_settings.py <project-name>/settings.py
+```
+Includes:
+- python-decouple library
+- django debug toolbar for only dev environment
+- templates from all apps in one folder
+- static files, media
