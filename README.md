@@ -39,18 +39,7 @@ You can use an example file by renaming it, then adding your secret key and othe
 mv .env-example .env
 ```
 
-### 2) Set periodic dependency bumps
- Move the `dependabot.yml` file to the appropriate folder and change the rules as you wish
-```
-mkdir .github
-mv dependabot.yml .github/dependabot.yml
-```
-or remove the file completely if not interested
-```
-rm dependabot.yml
-```
-
-### 3) Use predefined settings
+### 2) Use predefined settings
 You can replace settings with a predefined settings
 ```
 mv predefined_settings.py <project-name>/settings.py
@@ -60,3 +49,11 @@ Includes:
 - django debug toolbar for only dev environment
 - templates from all apps in one folder
 - static files, media
+
+### 3) Edit dependency bumps
+ You can change the rules of `dependabot.yml` file as you wish
+
+or remove the file completely if not interested
+```
+rm .github/dependabot.yml
+```
