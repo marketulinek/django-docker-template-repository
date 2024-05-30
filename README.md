@@ -7,6 +7,7 @@ GitHub template repository for creating a new Django project in Docker
 - [`django-debug-toolbar`](https://github.com/jazzband/django-debug-toolbar) 4.3
 - [`Docker`](https://docs.docker.com/get-docker/) and [`Docker Compose`](https://docs.docker.com/compose/)
 - Base HTML template with [`Bootstrap`](https://getbootstrap.com/) 5
+- [`Dependabot`](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide) version updates and security alerts
 
 ## :magic_wand: First Commands
 If you have Docker and Docker compose installed
@@ -50,8 +51,10 @@ Includes:
 - templates from all apps in one folder
 - static files, media
 
-### 3) Edit dependency bumps
- You can change the rules of `dependabot.yml` file as you wish
+### 3) Enable Dependabot
+> If you don't know Dependabot, here is a [Github's quickstart guide](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide)
+
+Also you can change the rules of `dependabot.yml` file as you wish
 
 or remove the file completely if not interested
 ```
